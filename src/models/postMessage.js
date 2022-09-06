@@ -16,8 +16,8 @@ const postSchema = mongoose.Schema({
     selectedFile:{
         type:String
     },
-    likeCount:{
-        type:Number,
+    likes:{
+        type:[String],
         default:0
     },
     createdAt:{
